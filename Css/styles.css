@@ -1,0 +1,11 @@
+
+        main,article,section{background-color: black; color: rgb(42, 165, 79); font-size: 15px;padding: 5px;
+            margin: 200
+            px; text-align: center;}
+        h1{ color: brown; font-size: 100px;padding: 5px;
+            margin: 200
+            px;}
+            nav,ul {background-color: rgb(168, 158, 196);font-size: 40px; color: brown;padding: 20px;padding-right: 0cm; text-align: center;}
+       head {color: blueviolet;}
+h2 {color: aqua; font-size: 300px;}
+footer {color: blue;font-size: small;}

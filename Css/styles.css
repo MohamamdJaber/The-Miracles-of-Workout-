@@ -9,3 +9,4 @@
        head {color: blueviolet;}
 h2 {color: aqua; font-size: 300px;}
 footer {color: blue;font-size: small;}
+li {display: inline;text-align: center; padding: 40px;}

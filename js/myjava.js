@@ -18,6 +18,6 @@ if (yourage > 18 && yourage < 60 ) {
   document.write('<h3>'+okk+'</h3>');
   
   document.write('<h3>'+"You can do it if you just try"+'</h3>'); 
-  app.UseStaticFiles();
+  
 
 

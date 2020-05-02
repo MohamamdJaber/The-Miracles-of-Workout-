@@ -1,23 +1,65 @@
 'use strict';
-var yourage = prompt('please enter your age');
-console.log(yourage);
-var okk;
-if (yourage > 18 && yourage < 60 ) {
-    confirm("Press enter..and dont forget to enjoy");
-    okk = 'Do any excercise you want you are healthy';
-  } else if (yourage > 12 && yourage < 60) {
-    confirm("Press enter..and dont forget to enjoy");
-    okk = 'You should wait until you become 18';
-  } else if (yourage >= 5 && yourage < 60) {
-    confirm("Tell your parents");
-    okk = 'Go to your BaBa';
-  } else {
-    confirm("Please read about working out within your age in the internet");
-    okk = 'Please dont even think to do that unless you are a fit person just eat a healthy stuff';
+function userOrder(){
+
+}
+
+
+
+whatOrdering();
+height();
+age1();
+function age1(){
+    var yourage = prompt('please enter your age');
+  console.log(yourage);
+  var okk;
+  if (yourage > 18 && yourage < 60 ) {
+      confirm("Press enter..and dont forget to enjoy");
+      okk = 'Do any excercise you want you are healthy';
+    } else if (yourage > 12 && yourage < 60) {
+      confirm("Press enter..and dont forget to enjoy");
+      okk = 'You should wait until you become 18';
+    } else if (yourage >= 5 && yourage < 60) {
+      confirm("Tell your parents");
+      okk = 'Go to your BaBa';
+    } else {
+      confirm("Please read about working out within your age in the internet");
+      okk = 'Please dont even think to do that unless you are a fit person just eat a healthy stuff';
+    }
+    {
+    document.write('<h3>'+okk+'</h3>');}
+}
+
+
+  function height(){
+    
+      var Yourheight = prompt('please enter your height IN CM ');
+    console.log(height);
+    var H;
+      if (Yourheight > 175 && Yourheight < 220 ) {
+        confirm("Press enter..and dont forget to enjoy");
+        H = 'haha';
+      } else if (Yourheight > 150 && Yourheight <= 175) {
+        confirm("Press enter..and dont forget to enjoy");
+        H = 'You should wait until you become 18';
+      
+      } else {
+        confirm("Please read about working out within your height in the internet");
+        H = 'Please dont even think to do that unless you are a fit person just eat a healthy stuff';
+      
+        document.write('<h3>'+H+'</h3>');
+      }
   }
-  document.write('<h3>'+okk+'</h3>');
+  function whatOrdering(){
+    var whatOrdering = prompt('what your best excersice is');
+    if (whatOrdering === 'push ups'){
+      // document.write('<p>greaaaaat</p>');
+      document.getElementById("new").innerHTML = "greaat";
+    }else if (whatOrdering === 'not defind yey'){
+      document.write('<p>ok keep looking for that</p>');
+    }
+  }
+
   
-  document.write('<h3>'+"You can do it if you just try"+'</h3>'); 
   
 
 

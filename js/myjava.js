@@ -32,7 +32,7 @@ function age1(){
 
   function height(){
     
-      var Yourheight = prompt('please enter your height IN CM ');
+      var Yourheight = prompt('please enter your height in cm ');
     console.log(height);
     var H;
       if (Yourheight > 175 && Yourheight < 220 ) {
@@ -51,10 +51,14 @@ function age1(){
   }
   function whatOrdering(){
     var whatOrdering = prompt('what your best excersice is');
+    while (whatOrdering !== 'push ups' && whatOrdering !== 'not defind yet' )
+
+    {whatOrdering = prompt('please enter push ups or not defind yey ');}
+   
     if (whatOrdering === 'push ups'){
       // document.write('<p>greaaaaat</p>');
-      document.getElementById("new").innerHTML = "greaat";
-    }else if (whatOrdering === 'not defind yey'){
+      document.getElementById("new").innerHTML = "You are great";
+    }else if (whatOrdering === 'not defind yet'){
       document.write('<p>ok keep looking for that</p>');
     }
   }
